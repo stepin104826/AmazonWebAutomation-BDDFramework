@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="44.737" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Shopping Cart Edit Feature" name="Editing the shopping cart successfully" time="44.58">
+<system-out><![CDATA[
+Given I am on the Shopping Cart page with some product(s) in the cart.......passed
+When I click "Delete" option, the added product(s) should be deleted........passed
+And I click "Add to cart" from the recently viewed products, the product(s) should be added.passed
+]]></system-out>
+</testcase>
+</testsuite>

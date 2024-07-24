@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>CucumberBDDProject</td>
+                          <td>1</td>
+                        <td>24 Jul 2024, 04:05</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_am_on_the_amazon_login_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="11031557200">11s 031ms</td>
+                <td class="duration" data-value="11031557200">11s 031ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_cancel_the_placed_order()</td>
+                <td>1</td>
+                <td class="duration" data-value="4880335300">4s 880ms</td>
+                <td class="duration" data-value="4880335300">4s 880ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_navigate_to_the_order_history_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="4427388900">4s 427ms</td>
+                <td class="duration" data-value="4427388900">4s 427ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_place_the_order()</td>
+                <td>1</td>
+                <td class="duration" data-value="13977198200">13s 977ms</td>
+                <td class="duration" data-value="13977198200">13s 977ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_proceed_to_checkout()</td>
+                <td>1</td>
+                <td class="duration" data-value="15744708100">15s 744ms</td>
+                <td class="duration" data-value="15744708100">15s 744ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_provide_a_valid_click_on_continue(java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="4568031000">4s 568ms</td>
+                <td class="duration" data-value="4568031000">4s 568ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_search_for_sport_shoes_in_the_product_search(java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="5337232900">5s 337ms</td>
+                <td class="duration" data-value="5337232900">5s 337ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_select_a_product_from_the_search_results_and_add_to_the_cart()</td>
+                <td>1</td>
+                <td class="duration" data-value="12558602000">12s 558ms</td>
+                <td class="duration" data-value="12558602000">12s 558ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_select_the_delivery_date_and_time()</td>
+                <td>1</td>
+                <td class="duration" data-value="3096070500">3s 096ms</td>
+                <td class="duration" data-value="3096070500">3s 096ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.i_should_see_the_product_added_in_the_cart()</td>
+                <td>1</td>
+                <td class="duration" data-value="3101585500">3s 101ms</td>
+                <td class="duration" data-value="3101585500">3s 101ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.my_order_should_be_successfully_cancelled()</td>
+                <td>1</td>
+                <td class="duration" data-value="11572569600">11s 572ms</td>
+                <td class="duration" data-value="11572569600">11s 572ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.my_order_should_be_successfully_placed()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.provide_a_valid_click_on_sign_in(java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="7166638200">7s 166ms</td>
+                <td class="duration" data-value="7166638200">7s 166ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.setUp()</td>
+                <td>1</td>
+                <td class="duration" data-value="1634781800">1s 634ms</td>
+                <td class="duration" data-value="1634781800">1s 634ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">org.amazon.stepdefs.EndToEndFlowStepDefinition.tearDown()</td>
+                <td>1</td>
+                <td class="duration" data-value="1308510800">1s 308ms</td>
+                <td class="duration" data-value="1308510800">1s 308ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>15</td>
+              <td>15</td>
+              <td class="duration">1m 40s 405ms</td>
+              <td class="duration">6s 693ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

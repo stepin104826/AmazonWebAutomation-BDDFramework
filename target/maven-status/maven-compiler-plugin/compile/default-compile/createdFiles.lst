@@ -1,0 +1,7 @@
+org\amazon\account\pages\AccountHomePage.class
+org\amazon\account\pages\AccountSignInPage.class
+org\amazon\orders\pages\OrderDetailsPage.class
+org\amazon\products\pages\ProductResultsPage.class
+org\amazon\orders\pages\OrdersandReturnsPage.class
+org\amazon\orders\pages\OrderCheckoutPage.class
+org\amazon\cart\pages\ShoppingCartPage.class

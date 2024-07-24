@@ -1,0 +1,6 @@
+
+@Regression @editcarttest
+Scenario: Editing the shopping cart successfully                                              [90m# src/test/resources/features/editcart.feature:8[0m
+  [32mGiven [0m[32mI am on the Shopping Cart page with some product(s) in the cart[0m                       [90m# org.amazon.shoppingcart.stepdefs.EditShoppingCartStepDefinition.i_am_on_the_shopping_cart_page()[0m
+  [32mWhen [0m[32mI click [0m[32m[1m"Delete"[0m[32m option, the added product(s) should be deleted[0m                        [90m# org.amazon.shoppingcart.stepdefs.EditShoppingCartStepDefinition.i_click_option_the_added_product_s_should_be_deleted(java.lang.String)[0m
+  [32mAnd [0m[32mI click [0m[32m[1m"Add to cart"[0m[32m from the recently viewed products, the product(s) should be added[0m [90m# org.amazon.shoppingcart.stepdefs.EditShoppingCartStepDefinition.i_click_from_the_recently_viewed_products_the_product_s_should_be_added(java.lang.String)[0m

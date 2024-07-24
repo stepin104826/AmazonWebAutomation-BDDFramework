@@ -1,0 +1,7 @@
+<suite name="Amazon Website Test Suite">
+    <test name="Order Tests">
+        <classes>
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
