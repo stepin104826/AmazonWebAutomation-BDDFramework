@@ -1,8 +1,8 @@
+![Your Logo](Project-Info/TestFrameworkDiagram.png)
+
 # AmazonWebAutomation-BDDFramework
 ## About
-This project is designed to test multiple user-flows and real-world scenarios of Amazon's shopping website. This project leverages Behavior-Driven Development (BDD) with Cucumber Framework to deliver robust, scalable, and maintainable automation scripts.
-
-## References and Demo
+This project is designed to test multiple user-flows and real-world scenarios of Amazon's shopping website. This project leverages Behavior-Driven Development (BDD) with Test Cucumber Framework to deliver robust, scalable, and maintainable automation scripts.
 
 ## Test Automation Technologies Used
 1. **Java:** The primary programming language used for writing the automation scripts.
@@ -10,6 +10,15 @@ This project is designed to test multiple user-flows and real-world scenarios of
 3. **Selenium WebDriver:** Web automation framework used for browser interaction.
 4. **TestNG:** Testing framework for managing and running the test suites.
 5. **Maven:** Build automation tool used for managing project dependencies and build lifecycle.
+
+## Pre-requisites
+1. Java JDK 8 or above
+2. Maven Dependencies
+3. IDE (IntelliJ, Eclipse, etc.)
+4. Cucumber Plugins
+5. TestNG (necessary for parallel execution)
+
+   
 ## Key Features
 1. **Simple BDD with Cucumber:** This framework utilizes Cucumber to write human-readable scenarios that capture the behavior of Amazon's shopping processes, making tests easier to understand and manage.
 
@@ -18,6 +27,24 @@ This project is designed to test multiple user-flows and real-world scenarios of
 3. **Reusability:** This Framework is designed using Page Object Model(POM) pattern, which makes it easy to re-use and replace web elements and action methods based on the requirements.
 
 4. **Scalability:** Designed with scalability in mind, this framework can be easily extended to accommodate new features and functionalities, adapting to the evolving needs of the application.
+
+## Test Framework Components
+1. **Page Object Model (POM)**:
+The project follows the Page Object Model design pattern to represent web pages as classes, encapsulating the interaction logic for each page. This enhances code reusability and maintainability.
+
+2. **Feature files**:
+These are written in Gherkin syntax and describe the test scenarios in a human-readable format using Given-When-Then templates. Each feature file corresponds to a specific functionality of the Amazon website.
+Step Definitions
+
+3. **Step definitions**:
+Implement the Gherkin steps in the feature files to the underlying Java code. These definitions contain the logic for interacting with the web elements and performing the necessary actions.
+Test Runner
+
+4. **Test runner class**:
+Responsible for executing the Cucumber test suites. They configure the test execution settings, such as the feature files to run and the report generation options.
+
+5. **Test Reporting**:
+The Project uses in-built Cucumber Plugins to generate both indepth and simple overview reports 
 
 
 ## Project Structure
@@ -47,32 +74,10 @@ This project is designed to test multiple user-flows and real-world scenarios of
         Maven POM XML files used to install and manage project dependencies, plugins, config. etc.
 
 
-## Components
-1. **Page Object Model (POM)**:
-The project follows the Page Object Model design pattern to represent web pages as classes, encapsulating the interaction logic for each page. This enhances code reusability and maintainability.
-
-2. **Feature files**:
-These are written in Gherkin syntax and describe the test scenarios in a human-readable format using Given-When-Then templates. Each feature file corresponds to a specific functionality of the Amazon website.
-Step Definitions
-
-3. **Step definitions**:
-Implement the Gherkin steps in the feature files to the underlying Java code. These definitions contain the logic for interacting with the web elements and performing the necessary actions.
-Test Runner
-
-4. **Test runner class**:
-Responsible for executing the Cucumber test suites. They configure the test execution settings, such as the feature files to run and the report generation options.
-
-5. **Test Reporting**:
-The Project uses in-built Cucumber Plugins to generate both indepth and simple overview reports 
-
-
-## Pre-requisites
-1. Java JDK 8 or above
-2. Maven Dependencies
-3. IDE (IntelliJ, Eclipse, etc.)
-4. Cucumber Plugins
-5. TestNG (necessary for parallel execution)
-
+  
+## Help and Demo
+Refer to "DemoVideos" folder to see the working demos
+Refer to "Project-Info" folder to see the Test Framework Architecture and some doc.
 
 ## Helpful Links
 1. Cucumber Documentation: https://cucumber.io/docs/cucumber/
