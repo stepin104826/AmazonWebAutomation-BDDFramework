@@ -1,9 +1,9 @@
 # AmazonWebAutomation-BDDFramework  
-
-   <img src="CucumberLogo.png" alt="Your Logo" height="200" width="250" />
-
-## About
+<img src="CucumberLogo.png" alt="Your Logo" height="100" width="150" />  
+## About                     
 This project is designed to test multiple user-flows and real-world scenarios of Amazon's shopping website. This project leverages Behavior-Driven Development (BDD) with Test Cucumber Framework to deliver robust, scalable, and maintainable automation scripts.
+
+   
 
 ## Test Automation Technologies Used
 1. **Java:** The primary programming language used for writing the automation scripts.
