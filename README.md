@@ -20,7 +20,7 @@ This project is designed to test mutliple userflows and real-world scenarios of 
 ## Project Structure
 ### Directory Layout
 
-1.**src/main/java/:**
+1. **src/main/java/:**
 
         a. org.amazon: Contains the Page Object Model (POM) classes representing different pages of the Amazon Shopping website.
         b. BrowserUtilities: Contains browser utility classes for handling  browser setup.
