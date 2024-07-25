@@ -1,6 +1,6 @@
 # AmazonWebAutomation-BDDFramework
 ## About
-This project is designed to test mutliple userflows and real-world scenarios of Amazon's shopping website. This project leverages Behavior-Driven Development (BDD) with Cucumber Framework to deliver robust, scalable, and maintainable automation scripts.
+This project is designed to test multiple userflows and real-world scenarios of Amazon's shopping website. This project leverages Behavior-Driven Development (BDD) with Cucumber Framework to deliver robust, scalable, and maintainable automation scripts.
 
 ## References and Demo
 
