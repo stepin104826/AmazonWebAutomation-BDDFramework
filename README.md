@@ -1,5 +1,5 @@
 # AmazonWebAutomation-BDDFramework
-Objective
+## Objective
 
 This project aims to automate the testing of various functionalities of the Amazon Shopping Website using the Behavior-Driven Development (BDD) approach with the Cucumber framework. The goal is to ensure the quality and reliability of the website's features through comprehensive and automated test scenarios.
 Project Structure
