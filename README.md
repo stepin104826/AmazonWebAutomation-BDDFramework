@@ -2,7 +2,8 @@
 ## About
 This project is designed to test multiple user-flows and real-world scenarios of Amazon's shopping website. This project leverages Behavior-Driven Development (BDD) with Cucumber Framework to deliver robust, scalable, and maintainable automation scripts.
 
-## References and Demo
+## Demo
+Refer to "DemoVideos" folder to see the working demos
 
 ## Test Automation Technologies Used
 1. **Java:** The primary programming language used for writing the automation scripts.
