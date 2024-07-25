@@ -2,8 +2,9 @@
 ## Objective
 
 This project aims to automate the testing of various functionalities of the Amazon Shopping Website using the Behavior-Driven Development (BDD) approach with the Cucumber framework. The goal is to ensure the quality and reliability of the website's features through comprehensive and automated test scenarios.
-Project Structure
-Directory Layout
+
+## Project Structure
+### Directory Layout
 
 1.src/main/java/:
         org.amazon.pages: Contains the Page Object Model (POM) classes representing different pages of the Amazon website.
@@ -22,16 +23,15 @@ Directory Layout
 
 ## Test Automation Technologies Used
 
-    Java: The primary programming language used for writing the automation scripts.
-    Cucumber: BDD framework used to write readable and executable specifications.
-    Selenium WebDriver: Web automation framework used for browser interaction.
-    TestNG: Testing framework for managing and running the test suites.
-    Maven: Build automation tool used for managing project dependencies and build lifecycle.
-    ExtentReports: Reporting library used for generating comprehensive test execution reports.
+1. Java: The primary programming language used for writing the automation scripts.
+2. Cucumber: BDD framework used to write readable and executable specifications.
+3. Selenium WebDriver: Web automation framework used for browser interaction.
+4. TestNG: Testing framework for managing and running the test suites.
+5. Maven: Build automation tool used for managing project dependencies and build lifecycle.
+
 
 ## Components
-1.** Page Object Model (POM)**
-
+1.**Page Object Model (POM)**
 The project follows the Page Object Model design pattern to represent web pages as classes, encapsulating the interaction logic for each page. This enhances code reusability and maintainability.
 Feature Files
 
