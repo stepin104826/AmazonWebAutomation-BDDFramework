@@ -1,12 +1,15 @@
 # AmazonWebAutomation-BDDFramework
 ## About
-
 This project is designed to test mutliple userflows and real-world scenarios of Amazon's shopping website. This project leverages Behavior-Driven Development (BDD) with Cucumber Framework to deliver robust, scalable, and maintainable automation scripts.
 
 ## References and Demo
 
-
-
+## Test Automation Technologies Used
+1. **Java:** The primary programming language used for writing the automation scripts.
+2. **Cucumber:** BDD framework used to write readable and executable specifications.
+3. **Selenium WebDriver:** Web automation framework used for browser interaction.
+4. **TestNG:** Testing framework for managing and running the test suites.
+5. **Maven:** Build automation tool used for managing project dependencies and build lifecycle.
 ## Key Features
 1. **Simple BDD with Cucumber:** This framework utilizes Cucumber to write human-readable scenarios that capture the behavior of Amazon's shopping processes, making tests easier to understand and manage.
 
@@ -43,13 +46,6 @@ This project is designed to test mutliple userflows and real-world scenarios of 
 
         Maven POM XML files used to install and manage project dependencies, plugins, config. etc.
 
-## Test Automation Technologies Used
-1. **Java:** The primary programming language used for writing the automation scripts.
-2. **Cucumber:** BDD framework used to write readable and executable specifications.
-3. **Selenium WebDriver:** Web automation framework used for browser interaction.
-4. **TestNG:** Testing framework for managing and running the test suites.
-5. **Maven:** Build automation tool used for managing project dependencies and build lifecycle.
-
 
 ## Components
 1. **Page Object Model (POM)**:
@@ -68,6 +64,7 @@ Responsible for executing the Cucumber test suites. They configure the test exec
 
 5. **Test Reporting**:
 The Project uses in-built Cucumber Plugins to generate both indepth and simple overview reports 
+
 
 ## Pre-requisites
 1. Java JDK 8 or above
