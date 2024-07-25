@@ -8,13 +8,13 @@ This project is designed to test mutliple userflows and real-world scenarios of 
 
 
 ## Key Features
-**Simple BDD with Cucumber:** This framework utilizes Cucumber to write human-readable scenarios that capture the behavior of Amazon's shopping processes, making tests easier to understand and manage.
+1. **Simple BDD with Cucumber:** This framework utilizes Cucumber to write human-readable scenarios that capture the behavior of Amazon's shopping processes, making tests easier to understand and manage.
 
-**Comprehensive Test Coverage:** It includes detailed test cases for various user interactions such as product search, cart management, and checkout, ensuring comprehensive test coverage for critical functionalities.
+2. **Comprehensive Test Coverage:** It includes detailed test cases for various user interactions such as product search, cart management, and checkout, ensuring comprehensive test coverage for critical functionalities.
 
-**Reusability:** This Framework is designed using Page Object Model(POM) pattern, which makes it easy to re-use and replace web elements and action methods based on the requirements.
+3. **Reusability:** This Framework is designed using Page Object Model(POM) pattern, which makes it easy to re-use and replace web elements and action methods based on the requirements.
 
-**Scalability:** Designed with scalability in mind, this framework can be easily extended to accommodate new features and functionalities, adapting to the evolving needs of the application.
+4. **Scalability:** Designed with scalability in mind, this framework can be easily extended to accommodate new features and functionalities, adapting to the evolving needs of the application.
 
 
 ## Project Structure
