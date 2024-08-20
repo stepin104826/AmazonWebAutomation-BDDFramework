@@ -2,7 +2,7 @@
 <img src="CucumberLogo.png" alt="Your Logo" height="100" width="150" />  
 
 ## About                     
-This project is designed to test multiple user-flows and real-world scenarios of Amazon's shopping website. This project leverages **Behavior-Driven Development (BDD) with Cucumber Test Framework** to deliver robust, scalable, and maintainable automation scripts.
+This project is designedss to test multiple user-flows and real-world scenarios of Amazon's shopping website. This project leverages **Behavior-Driven Development (BDD) with Cucumber Test Framework** to deliver robust, scalable, and maintainable automation scripts.
 
    
 ## Test Automation Technologies Used
